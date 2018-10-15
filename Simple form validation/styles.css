@@ -1,0 +1,9 @@
+form{
+	margin: 90px;
+}
+body{
+	background-color: #ffbca2;
+}
+.err{
+	outline: 1px solid red;
+}
