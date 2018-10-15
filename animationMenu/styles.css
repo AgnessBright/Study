@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+body{
+	background-color: #353541;
+}
+header{
+display: flex;
+margin-left: 270px;
+}
+#sidebar{
+	position: fixed;
+	width: 270px;
+	height: 100%;
+	background: #353541;
+	border-right: 4px solid #E0E5EA;
+	left: -274px;
+
+	-moz-transition: all 600ms;
+	-webkit-transition: all 600ms;
+	transition: all 600ms;
+
+	z-index: 100;
+}
+
+#sidebar.active{
+	left: 0px;
+}
+#sidebar ul li img {
+	
+	font-size: 1.40em;
+	list-style: none;
+	margin: 0px 10px 0 -4px;
+	border: 2px solid #E0E5EA;
+}
+}
+.shit{
+
+}
+#sidebar ul li:not(:first-child) {
+	text-align: center;
+	width: 100%;
+	font-size: 1.2em;
+	line-height: 2;
+	list-style: none;
+	padding:15px 0 15px 0;
+	border-bottom: 1px solid #E0E5EA;
+	margin-bottom: -4px;
+
+}
+#sidebar ul li a{
+	color: white;
+	text-decoration: none;
+	line-height: 2;
+}
+#sidebar ul li a:hover {
+	color: gray;
+}
+#sidebar .toggle-btn{
+	position: absolute;
+	left: 270px;
+	top: 20px;
+	background: #353541;
+	padding: 10px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+#sidebar .toggle-btn:hover{
+	background: #202027;
+}
+#sidebar .toggle-btn span:hover{
+background-color: #cd434e;
+}
+#sidebar .toggle-btn span{
+	display: block;
+	width: 25px;
+	height: 4px;
+	background-color: #fb6470;
+	margin: 4px 0;
+}
